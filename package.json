@@ -1,0 +1,17 @@
+{
+  "name": "redux-s3-njscaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "njscaffold ./scaffold ./generated",
+    "build:watch": "watch 'npm run build' ./scaffold"
+  },
+  "author": "Edward Stone <edwardjstone@yahoo.com> (https://github.com/eadmundo)",
+  "license": "ISC",
+  "devDependencies": {
+    "nunjucks-scaffolder": "^0.1.0",
+    "watch": "^1.0.1"
+  }
+}
